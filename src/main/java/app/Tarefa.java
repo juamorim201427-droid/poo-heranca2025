@@ -25,7 +25,7 @@ public class Tarefa{
         this.isConcluido = isConcluido;
     }
 
-    public Tarefa(long id, String descricao, boolean is Concluido) {
+    public Tarefa(long id, String descricao, boolean concluido) {
         this.setId(id);
         this.setDescricao(descricao);
         this.setConcluido(concluido);
